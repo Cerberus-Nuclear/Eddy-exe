@@ -14,7 +14,7 @@ General CLI usage: python3 Eddy.py [-o outputfile] [-sf scaling_factor] ---> out
 All the code within this project is covered by GPLv3, the GNU Public Licence, Version 3, June 2007. A full copy of this
 licence is included with the source code; more information can be found at <https://www.gnu.org/licenses/>.
 
-Disclaimer
+Disclaimer: 
 The material embodied in this software is provided to you "as-is" and without warranty of any kind, express, implied or
 otherwise, including without limitation, any warranty of fitness for a particular purpose. In no event shall the Cerberus
 Nuclear Limited be liable to you or anyone else for any direct, special, incidental, indirect or consequential damages of
