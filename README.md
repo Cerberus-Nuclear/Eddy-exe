@@ -1,29 +1,25 @@
-# Eddy
+![logo](https://cerberusnuclear.com/wp-content/uploads/2020/10/EddyLinkedin.jpg)
 
-Eddy is a HTML output generator for MCNP and SCALE. It was created by Cerberus Nuclear. Cerberus Nuclear accepts no
-responsibility for the accuracy of any results presented with Eddy.
+Eddy is a HTML output generator for MCNP and SCALE; it imports an MCNP or SCALE output file, extracts the important data, and writes it to a user-friendly HTML file.
 
-Eddy taken an MCNP or SCALE output file, extracts the important data,
-and writes it to a user-friendly HTML file.
+This repository contains the the executable version of Eddy. The exectuable itself is the  file found in the top level Eddy folder. It can be run simply by double-clicking on this executable; GUI windows will then request an MCNP/SCALE file and a scaling factor.
 
-All the code within this project is covered by GPLv3, the GNU Public Licence, Version 3, June 2007. A full copy of this
-licence is included with the source code; more information can be found at <https://www.gnu.org/licenses/>.
+Alternatively, Eddy can be run from the command line, and optional parameters can be given: 
+the filename of the mcnp output file and a scaling factor to multiply tally resutls by.
 
-Eddy can be downloaded as either a pre-compiled executable, from <https://github.com/Cerberus-Nuclear/Eddy>,
-or as source code from <https://github.com/Cerberus-Nuclear/Eddy-Source>.
+General CLI usage:
 
-This is the executable version of Eddy. The exectuable itself is the Eddy_beta_
-02.exe file found in the top level Eddy folder. It can be run simply by double-clicking on this executable.
+```bash
+>> Eddy_beta_03.exe [-h] [-o FILE] [-sf SCALING_FACTOR]
+```
 
-Eddy can be run from the command line with the output file and any applicable scaling factor as optional arguments;
-if no such arguments are supplied a GUI will appear to request them.
+Eddy is also available as [python source code](https://github.com/Cerberus-Nuclear/.Eddy-Source), and on the PyPI Python Package index as eddy-mc, in order to allow easier integration into other programs. More information on these options can be found in the README.md file on the [source code repository](https://github.com/Cerberus-Nuclear/.Eddy-Source).
 
-General CLI usage: python3 Eddy.py [-o outputfile] [-sf scaling_factor] ---> outputfile.html
-
-The material embodied in this software is provided to you "as-is" and without warranty of any kind, express, implied or
-otherwise, including without limitation, any warranty of fitness for a particular purpose. In no event shall the Cerberus
-Nuclear Limited be liable to you or anyone else for any direct, special, incidental, indirect or consequential damages of
-any kind, or any damages whatsoever, including without limitation, loss of profit, loss of use, savings or revenue, or
-the claims of third parties, whether or not Cerberus Nuclear Limited has been advised of the possibility of such loss,
-however caused and on any theory of liability, arising out of or in connection with the possession, use or performance
-of this software.
+<details>
+  <summary>Example HTML outputs</summary>
+  <img src="https://cerberusnuclear.com/wp-content/uploads/2020/10/eddy-screen-shot-2.jpg" name="image-name">
+  <img src="https://cerberusnuclear.com/wp-content/uploads/2020/10/Results_Summary-1.jpg" name="image-name">
+  <img src="https://cerberusnuclear.com/wp-content/uploads/2020/10/Results_Stats-1.jpg" name="image-name">
+  <img src="https://cerberusnuclear.com/wp-content/uploads/2020/10/WarningsComments.jpg" name="image-name">
+  <img src="https://cerberusnuclear.com/wp-content/uploads/2020/10/particles-1.jpg" name="image-name">
+</details>
