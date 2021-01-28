@@ -2,12 +2,12 @@
 
 Eddy is a HTML output generator for MCNP and SCALE; it imports an MCNP or SCALE output file, extracts the important data, and writes it to a user-friendly HTML file.
 
-This repository contains the the executable version of Eddy. The exectuable itself is the 'Eddy_0.1.3.exe' file found in the top level Eddy_0.1.3 folder. It can be run simply by double-clicking on this executable; GUI windows will then request an MCNP/SCALE file and a scaling factor.
+This repository contains the the executable version of Eddy. The exectuable itself is the 'Eddy_0.2.1.exe' file found in the top level Eddy folder. It can be run simply by double-clicking on this executable; GUI windows will then request an MCNP/SCALE file and a scaling factor.
 
 Alternatively, Eddy can be run from the command line, and optional parameters can be given: 
 the filename of the mcnp output file and a scaling factor to multiply tally resutls by.
 
-General CLI usage:
+General Command Line usage:
 
 ```bash
 >> Eddy_0.2.1.exe [-h] [-o FILE] [-sf SCALING_FACTOR]
