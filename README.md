@@ -7,7 +7,7 @@ This repository contains the the executable version of Eddy. The exectuable itse
 Alternatively, Eddy can be run from the command line, and optional parameters can be given: 
 the filename of the mcnp output file and a scaling factor to multiply tally resutls by.
 
-General CLI usage:
+General Command Line usage:
 
 ```bash
 >> Eddy_0.2.1.exe [-h] [-o FILE] [-sf SCALING_FACTOR]
