@@ -10,7 +10,7 @@ the filename of the mcnp output file and a scaling factor to multiply tally resu
 General Command Line usage:
 
 ```bash
->> Eddy_0.4.2.exe [-h] [-o FILE] [-sf SCALING_FACTOR]
+>> Eddy_0.4.4.exe [-h] [-o FILE] [-sf SCALING_FACTOR]
 ```
 
 Eddy is also available as [python source code](https://github.com/Cerberus-Nuclear/Eddy-Wrapper), and on the PyPI Python Package index as eddy-mc-wrapper, in order to allow easier integration into other programs. More information on these options can be found in the README.md file on the [source code repository](https://github.com/Cerberus-Nuclear/Eddy-Wrapper).
